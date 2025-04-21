@@ -1,0 +1,79 @@
+/* Background image for the body */
+body {
+    background-image: url('images/sales-forecast.jpg'); /* Replace with the actual path to your image */
+    background-size: cover; /* Make the image cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keep the image fixed while scrolling */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Default text color for readability */
+}
+
+/* General styles */
+h1 {
+    color: whitesmoke;/* Make the heading readable on the background image */
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add a shadow for better readability */
+}
+h3{
+    color: #ffffff;
+}
+h4{
+    color: whitesmoke
+}
+
+/* Card styles */
+.card {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+/* Button styles */
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3 !important;
+}
+
+/* Predicted sales result */
+#result {
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Canvas styles */
+canvas {
+    width: 800px !important;
+    height: 400px !important;
+    margin: 0 auto;
+    display: block;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white for the graph background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer text (optional) */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}
